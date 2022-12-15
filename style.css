@@ -1,0 +1,380 @@
+/* Start Most css used */
+*{
+    outline: 1px solid red;
+}
+.flexContainer{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flexbox{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-50{
+    flex: 0 0 auto;
+    width: 50%;
+}
+/* End Most css used */
+
+.header_nav {
+  margin-right: auto;
+
+  padding: auto;
+}
+/* ===== Google Font Import - Poppins ===== */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.4s ease;
+}
+
+/* ===== Colours ===== */
+:root {
+  --body-color: #e4e9f7;
+  --nav-color: #e4e9f7;
+  --side-nav: #010718;
+  --text-color: #010718;
+  --search-bar: #f2f2f2;
+  --search-text: #010718;
+}
+
+body {
+  height: 100vh;
+  /* background-color: var(--body-color); */
+}
+
+body.dark {
+  --body-color: #18191a;
+  --nav-color: #242526;
+  --side-nav: #242526;
+  --text-color: #010718;
+  --search-bar: #242526;
+}
+
+.header-container .navBar {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  width: 100%;
+  background-color: var(--nav-color);
+  margin-top: 10px;
+  position: relative;
+  z-index: 1;
+  background-color: transparent;
+}
+
+.header-container .nav-links {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.header-container .nav-links li a {
+  text-decoration: none;
+  padding: 20px;
+  --text-color: white; 
+  color: var(--text-color);
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.headerContent {
+  margin: 10%;
+}
+
+.headerContent h2 {
+    font-family: "Nunito";
+    font-size: 64px;
+    padding: 00px;
+    /* margin: 76px; */
+}
+.headerContent p{
+    padding: 00px;
+    /* margin: 70px; */
+}
+.appStor{
+    padding: 0 20px;
+
+}
+.headerImage {
+  background-image: url(img/Vector.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  top: -24%;
+  right: 0;
+  /* overflow: hidden; */
+}
+
+.headerImage .img{
+position: relative;
+}
+.headerImage .img img{
+    left: 50%;
+    display: flex;
+    position: absolute;
+    width: 150%;
+    top: 10rem;
+}
+.contentHeader {
+    text-align: center;
+}
+.imageHeader {
+    background-image: url(img/Downloader\ 1.svg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    flex-basis: 340px;
+}
+.content-container h2{
+    font-family: "Nunito";
+    font-size: 50px;
+    padding: 0px;
+    display: flex;
+ 
+}
+.content{
+    background-image: url(/img/Rectangle\ 8.svg);
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.content-container{
+    margin-top: 5%;
+}
+
+.content .content-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialProof{
+    background-color: white;
+    margin-top: 5%;
+}
+
+.sec5{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+.doc{
+    flex: 0 0 auto;
+    width: 50%;
+}
+.parent{
+    margin: 25% 12% 12% 12%;
+}
+
+.sec5 .img img{
+    width:100%;
+}
+
+.sec1{
+    display: flex;
+}
+.img{
+    
+    width: 50%;
+}
+.sec4 img{
+    width: 100%;
+}
+.screen {
+    margin-top: 5%;
+}
+.shot{
+    text-align: center;
+}
+.photo {
+    width: 100%;
+    margin-top: 5%;
+
+}
+
+.photo img{
+    width: 100%;
+}
+.awesome {
+    
+    text-align: center;
+}
+.feedback{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    background-color: #F2F5F8    ;
+}
+.feed{
+    flex: 0 0 auto;
+    width: 50%;
+    color: #010718;
+}
+.back{
+    color:black;
+
+}
+.back .button button{
+    color: #007aff;
+    width: 140px;
+    height: 40px;
+    border: 1px solid #007aff;
+    justify-content: space-between;
+    margin-right: 5%;
+}
+.star{
+    color: #FBAF5B ;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.buttons .button0 , 
+.buttons .button3{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.buttons .button0 .button{
+    margin-top: 10%;
+}
+
+
+
+.button0{
+    border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  justify-content: space-around;
+  display: inline-block;
+  font-size: 16px;
+
+  cursor: pointer;
+}
+.button3{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: space-around;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 100px;
+    cursor: pointer;
+}
+
+.asked{
+    text-align: center;
+    margin-top: 5%;
+}
+.download{
+    font-style: Bold;
+    
+font-size: 17.56px; 
+line-height: 26px; 
+Line-height: 150%;
+
+vertical-align: Top;
+    width: 609px;
+    height: 70.24px;
+    padding: 20px, 23px, 20px, 23px;
+    margin-top: 5%;
+
+
+}
+
+
+
+.have{
+    text-align: center;
+}
+.still .have button{
+    color:#FFFFFF;
+    width: 140px;
+    height: 40px;
+    background-color: #007AFF;
+    border: 1px solid #007AFF;
+    justify-content: space-between;
+    margin-right: 5%;
+    text-decoration: #007AFF;
+    
+
+}
+.now{
+    background-color: #007AFF;
+    color: #e4e9f7;
+    
+    display: flex;
+    
+}
+.available{
+   margin: 5%;
+   padding: 0 5%;
+   
+}
+.img8{
+    justify-content: space-around;
+
+    position: relative;
+    display: flex;
+    
+}
+
+.img9{
+    flex-basis: 100%;
+    position: relative;
+}
+
+.img9 img{
+    width: 100%;
+    position: absolute;
+    top: -20%;
+    right: 26%;
+}
+.start{
+    background-color: #0E1133;
+    color: #e4e9f7;
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 141px;
+
+
+}
+.your{
+    margin: 5%;
+    padding: 0 5%; 
+}
+.start .button1{
+    flex-basis: 10%;
+}
+.start .button1 button{
+    width: 100%;
+
+   
+  
+}
