@@ -1,7 +1,5 @@
 /* Start Most css used */
-*{
-    outline: 1px solid red;
-}
+
 .flexContainer{
     max-width: 1140px;
     margin-left: auto;
